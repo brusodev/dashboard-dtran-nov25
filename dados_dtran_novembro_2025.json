@@ -1,0 +1,99 @@
+{
+  "periodo": "Novembro 2025",
+  "orgao": "DTRAN - Coordenação de Gestão de Patrimônio (COGESPA)",
+  "licenciamento": {
+    "total": 1,
+    "renovacoes": 0,
+    "primeira_habilitacao": 1,
+    "equipe": 12
+  },
+  "vistorias": {
+    "total": 8,
+    "aprovadas": 6,
+    "reprovadas": 2,
+    "equipe": 8
+  },
+  "sinistros": {
+    "total": 1,
+    "acidentes": 0,
+    "avarias": 1,
+    "equipe": 4
+  },
+  "multas": {
+    "total": 87,
+    "recursos_deferidos": 13,
+    "recursos_indeferidos": 34,
+    "pagamentos": 40,
+    "equipe": 6
+  },
+  "patrimonio": {
+    "total": 534,
+    "incorporacoes": 87,
+    "baixas": 23,
+    "transferencias": 424,
+    "equipe": 5
+  },
+  "contratos": {
+    "total": 156,
+    "vigentes": 142,
+    "vencidos": 14,
+    "equipe": 3
+  },
+  "frota": {
+    "total_veiculos": 24,
+    "internos": 14,
+    "terceirizados": 10,
+    "operacionais": 20,
+    "manutencao": 1,
+    "baixados": 3
+  },
+  "atendimento_publico": {
+    "total": 38,
+    "presencial": 23,
+    "telefone": 9,
+    "email": 4,
+    "equipe": 9
+  },
+  "evolucao_mensal": {
+    "meses": [
+      "Jun",
+      "Jul",
+      "Ago",
+      "Set",
+      "Out",
+      "Nov"
+    ],
+    "licenciamento": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "vistorias": [
+      7,
+      7,
+      7,
+      8,
+      7,
+      8
+    ],
+    "multas": [
+      81,
+      88,
+      92,
+      87,
+      84,
+      87
+    ],
+    "patrimonio": [
+      489,
+      512,
+      534,
+      501,
+      518,
+      534
+    ]
+  }
+}

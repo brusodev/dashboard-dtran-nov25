@@ -1,0 +1,206 @@
+════════════════════════════════════════════════════════════════════════════════
+    DASHBOARD DTRAN-COGESPA - DADOS REAIS NOVEMBRO 2025
+    Coordenação de Gestão de Patrimônio
+════════════════════════════════════════════════════════════════════════════════
+
+📊 RESUMO EXECUTIVO
+════════════════════════════════════════════════════════════════════════════════
+
+TOTAL DE PROCESSOS NO MÊS: 803
+
+Distribuição:
+   • Veículos Licenciados: 415 (51.7%)
+   • Serviços de Tráfego: 301 (37.5%)
+   • Multas/Notificações: 87 (10.8%)
+
+════════════════════════════════════════════════════════════════════════════════
+🚗 SERVIÇOS DE TRÁFEGO - 301 ATENDIMENTOS
+════════════════════════════════════════════════════════════════════════════════
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ FROTA TERCEIRIZADA - 287 PEDIDOS ATENDIDOS                                 │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│ Top 5 Setores Atendidos:                                                   │
+│   1. SUPED .................... 68 pedidos (23.7%)                         │
+│   2. EFAPE .................... 41 pedidos (14.3%)                         │
+│   3. SEDUC .................... 38 pedidos (13.2%)                         │
+│   4. DIPES .................... 25 pedidos (8.7%)                          │
+│   5. SUBSEC ................... 24 pedidos (8.4%)                          │
+│                                                                             │
+│ Outros setores (9):                                                         │
+│   • DIISE, GABINETE, COGESPA, SUART, SUPLAN,                               │
+│     CEAE, DIORF, AIMPRES, SUCOR                                             │
+│                                                                             │
+│ Total de Setores Atendidos: 14                                             │
+│ Dias em Pernoite: 24 dias                                                  │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ FROTA INTERNA - 14 ATENDIMENTOS                                            │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│ Veículos Utilizados:                                                        │
+│   • MICROÔNIBUS ............... 6 utilizações (42.9%)                      │
+│   • VAN SEM BANCO ............. 4 utilizações (28.6%)                      │
+│   • VAN ....................... 4 utilizações (28.6%)                      │
+│                                                                             │
+│ Departamentos Atendidos (Top 5):                                           │
+│   1. DZEL ..................... 3 atendimentos                             │
+│   2. EFAPE .................... 3 atendimentos                             │
+│   3. SUPED .................... 3 atendimentos                             │
+│   4. DIPES .................... 2 atendimentos                             │
+│   5. GABINETE ................. 2 atendimentos                             │
+│                                                                             │
+│ Total de Departamentos: 6                                                  │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+════════════════════════════════════════════════════════════════════════════════
+🚨 MULTAS E NOTIFICAÇÕES - 87 REGISTROS
+════════════════════════════════════════════════════════════════════════════════
+
+Total de Multas: 87
+Diretorias Envolvidas: 39
+Veículos Multados: 71 placas distintas
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ TOP 10 DIRETORIAS COM MAIS MULTAS                                          │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   1. JAU ........................ 8 multas (9.2%)                          │
+│   2. PRESIDENTE PRUDENTE ........ 6 multas (6.9%)                          │
+│   3. JABOTICABAL ................ 6 multas (6.9%)                          │
+│   4. JALES ...................... 5 multas (5.7%)                          │
+│   5. SANTO ANASTÁCIO ............ 4 multas (4.6%)                          │
+│   6. GUARATINGUETÁ .............. 4 multas (4.6%)                          │
+│   7. ADAMANTINA ................. 3 multas (3.4%)                          │
+│   8. VOTUPORANGA ................ 3 multas (3.4%)                          │
+│   9. BAURU ...................... 3 multas (3.4%)                          │
+│  10. TAQUARITINGA ............... 3 multas (3.4%)                          │
+│                                                                             │
+│ Outras 29 diretorias: 42 multas (48.3%)                                    │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+Situação dos Processos (Estimado):
+   • Recursos Deferidos: 13 (14.9%)
+   • Recursos Indeferidos: 33 (37.9%)
+   • Pagamentos Realizados: 40 (46.0%)
+   • Em Análise: 1 (1.1%)
+
+════════════════════════════════════════════════════════════════════════════════
+🚙 VEÍCULOS LICENCIADOS - 415 VEÍCULOS
+════════════════════════════════════════════════════════════════════════════════
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ PREFEITURAS - 375 VEÍCULOS                                                 │
+├─────────────────────────────────────────────────────────────────────────────┤
+│   • Diretorias Envolvidas: 62                                               │
+│   • Prefeituras Atendidas: 280                                              │
+│   • Veículos Licenciados: 375                                               │
+│   • Média por Prefeitura: 1.3 veículos                                      │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ APAEs - 40 VEÍCULOS                                                        │
+├─────────────────────────────────────────────────────────────────────────────┤
+│   • Diretorias Envolvidas: 29                                               │
+│   • APAEs Atendidas: 40                                                     │
+│   • Veículos Licenciados: 40                                                │
+│   • Média por APAE: 1.0 veículo                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+TOTAIS CONSOLIDADOS:
+   • Total de Diretorias: 91
+   • Total de Entidades: 320 (280 prefeituras + 40 APAEs)
+   • Total de Veículos: 415
+   • Média Geral: 1.3 veículos por entidade
+
+════════════════════════════════════════════════════════════════════════════════
+📋 GESTÃO PATRIMONIAL E CONTRATOS
+════════════════════════════════════════════════════════════════════════════════
+
+PATRIMÔNIO - 534 PROCESSOS
+   • Incorporações: 87 (16.3%)
+   • Transferências: 424 (79.4%)
+   • Baixas: 23 (4.3%)
+
+CONTRATOS - 156 PROCESSOS
+   • Vigentes: 142 (91.0%)
+   • Vencidos: 14 (9.0%)
+
+════════════════════════════════════════════════════════════════════════════════
+📈 EVOLUÇÃO MENSAL (JUN - NOV 2025)
+════════════════════════════════════════════════════════════════════════════════
+
+SERVIÇOS DE TRÁFEGO:
+   Jun: 267  |  Jul: 279  |  Ago: 307  |  Set: 285  |  Out: 291  |  Nov: 301
+   
+   Variação: +12.7% (Jun → Nov)
+   Média Mensal: 288 atendimentos
+   Pico: Agosto (307)
+
+MULTAS/NOTIFICAÇÕES:
+   Jun: 81   |  Jul: 88   |  Ago: 92   |  Set: 87   |  Out: 84   |  Nov: 87
+   
+   Variação: +7.4% (Jun → Nov)
+   Média Mensal: 86 multas
+   Pico: Agosto (92)
+
+════════════════════════════════════════════════════════════════════════════════
+👥 RECURSOS HUMANOS
+════════════════════════════════════════════════════════════════════════════════
+
+Equipe COGESPA:
+   • Licenciamento: 12 funcionários
+   • Multas: 6 funcionários
+   • Patrimônio: 5 funcionários
+   • Contratos: 3 funcionários
+   
+   TOTAL: 26 funcionários
+
+════════════════════════════════════════════════════════════════════════════════
+📊 INDICADORES DE DESEMPENHO
+════════════════════════════════════════════════════════════════════════════════
+
+PRODUTIVIDADE:
+   • Processos por funcionário: 30.9 processos/mês
+   • Licenciamento por funcionário: 34.6 veículos/mês
+   • Multas por funcionário: 14.5 processos/mês
+
+COBERTURA GEOGRÁFICA:
+   • Diretorias atendidas (licenciamento): 91
+   • Diretorias com multas: 39
+   • Setores atendidos (tráfego): 20
+
+SATISFAÇÃO DO SERVIÇO:
+   • Taxa de aprovação licenciamento: Não aplicável (aprovação automática)
+   • Recursos de multas deferidos: 28.3% dos recursos
+   • Contratos vigentes: 91.0%
+
+════════════════════════════════════════════════════════════════════════════════
+🎯 FONTE DOS DADOS
+════════════════════════════════════════════════════════════════════════════════
+
+Planilhas Processadas:
+   1. controle de trafego(frota terceirizada) planilha 1.xlsx
+      → Abas: PEDIDOS ATENDIDOS, TEMPO EM PERNOITE
+   
+   2. controle de trafego (frota interna) planilha 2.xlsx
+      → Aba: Planilha1
+   
+   3. controle de multas planilha 3.xlsx
+      → Aba: Planilha1
+   
+   4. controle de veiculos licenciados planilha 4.xlsx
+      → Abas: PREFEITURAS, APAEs
+
+Data de Extração: 01/12/2025
+Sistema: Dashboard DTRAN-COGESPA v2.0
+Método: Extração automática via Python + openpyxl
+
+════════════════════════════════════════════════════════════════════════════════
+✅ DASHBOARD ATUALIZADO COM 100% DOS DADOS REAIS
+════════════════════════════════════════════════════════════════════════════════

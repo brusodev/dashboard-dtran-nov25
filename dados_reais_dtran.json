@@ -1,0 +1,126 @@
+{
+  "periodo": "Novembro 2025",
+  "orgao": "DTRAN - Coordenação de Gestão de Patrimônio (COGESPA)",
+  "trafego_terceirizado": {
+    "total_pedidos": 287,
+    "setores_atendidos": 14,
+    "dias_pernoite": 24,
+    "top_setores": {
+      "SUPED": 68,
+      "EFAPE": 41,
+      "SEDUC": 38,
+      "DIPES": 25,
+      "SUBSEC": 24
+    }
+  },
+  "trafego_interno": {
+    "total_atendimentos": 14,
+    "departamentos_atendidos": 6,
+    "veiculos_utilizados": {
+      "VAN ": 1,
+      "MICROONIBUS": 6,
+      "VAN": 3,
+      "VAN SEM BANCO": 4
+    },
+    "top_departamentos": {
+      "DZEL": 3,
+      "EFAPE": 3,
+      "SUPED": 3,
+      "DIPES": 2,
+      "GABINETE": 2
+    }
+  },
+  "multas": {
+    "total": 87,
+    "diretorias_envolvidas": 39,
+    "veiculos_multados": 71,
+    "top_diretorias": {
+      "JAU": 8,
+      "PRESIDENTE PRUDENTE": 6,
+      "JABOTICABAL": 6,
+      "JALES": 5,
+      "SANTO ANASTACIO": 4
+    },
+    "recursos_deferidos": 13,
+    "recursos_indeferidos": 33,
+    "pagamentos": 40
+  },
+  "licenciamento": {
+    "prefeituras": {
+      "diretorias": 62,
+      "entidades": 280,
+      "veiculos": 375
+    },
+    "apaes": {
+      "diretorias": 29,
+      "entidades": 40,
+      "veiculos": 40
+    },
+    "total_veiculos": 415,
+    "total_entidades": 320,
+    "total_diretorias": 91
+  },
+  "patrimonio": {
+    "total": 534,
+    "incorporacoes": 87,
+    "baixas": 23,
+    "transferencias": 424
+  },
+  "contratos": {
+    "total": 156,
+    "vigentes": 142,
+    "vencidos": 14
+  },
+  "frota": {
+    "interna": {
+      "tipos": {
+        "VAN ": 1,
+        "MICROONIBUS": 6,
+        "VAN": 3,
+        "VAN SEM BANCO": 4
+      },
+      "total_utilizacoes": 14
+    },
+    "terceirizada": {
+      "pedidos_mes": 287,
+      "dias_pernoite": 24
+    }
+  },
+  "atendimento": {
+    "total": 301,
+    "frota_terceirizada": 287,
+    "frota_interna": 14
+  },
+  "kpis": {
+    "total_processos": 803,
+    "servicos_trafego": 301,
+    "multas_notificacoes": 87,
+    "veiculos_licenciados": 415
+  },
+  "evolucao_mensal": {
+    "meses": [
+      "Jun",
+      "Jul",
+      "Ago",
+      "Set",
+      "Out",
+      "Nov"
+    ],
+    "trafego": [
+      267,
+      279,
+      307,
+      285,
+      291,
+      301
+    ],
+    "multas": [
+      81,
+      88,
+      92,
+      87,
+      84,
+      87
+    ]
+  }
+}
