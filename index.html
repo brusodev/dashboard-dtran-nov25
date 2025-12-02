@@ -207,17 +207,17 @@
             
             table {
                 font-size: 7px !important;
-                line-height: 1.2 !important;
+                line-height: 1.1 !important;
             }
             
             th {
                 background-color: #f3f4f6 !important;
-                padding: 3px 4px !important;
+                padding: 2px 3px !important;
                 font-size: 7px !important;
             }
             
             td {
-                padding: 3px 4px !important;
+                padding: 2px 3px !important;
             }
             
             thead {
@@ -257,7 +257,6 @@
             .p-6 {
                 padding: 6px !important;
             }   padding: 8px !important;
-            }
             
             .py-4 {
                 padding-top: 4px !important;
@@ -281,8 +280,8 @@
             /* Texto do rodapé menor */
             main::after {
                 font-size: 7px !important;
-            }   font-size: 14px !important;
-            }
+            }  
+            
             
             /* Garantir que tudo caiba em uma página */
             .overflow-hidden, .overflow-x-auto {
@@ -350,7 +349,7 @@
         <!-- Header Info -->
         <div class="mb-8">
             <h1 class="text-3xl font-bold text-gray-900">Gestão Operacional - Novembro 2025</h1>
-            <p class="text-gray-500 mt-1">Coordenação de Gestão de Transportes - Análise de Processos e Atendimentos</p>
+            <p class="text-gray-500 mt-1">Coordenação de Gestão de Transportes - Análise de Atendimentos</p>
         </div>
 
         <!-- KPI Cards Row -->
@@ -373,7 +372,7 @@
             <div class="bg-white rounded-lg shadow p-6 border-l-4 border-purple-500">
                 <div class="flex justify-between items-start">
                     <div>
-                        <p class="text-sm font-medium text-gray-500 uppercase">Pedidos de tráfego atendidos</p>
+                        <p class="text-sm font-medium text-gray-500 uppercase">Pedidos de saídas atendidos</p>
                         <h2 class="text-3xl font-bold text-gray-800 mt-2" id="kpi-trafego">0</h2>
                     </div>
                     <div class="p-3 bg-purple-100 rounded-full text-purple-600">
@@ -383,18 +382,32 @@
                 <p class="text-xs text-gray-400 mt-2" id="kpi-trafego-detail">Frota interna + terceirizada</p>
             </div>
 
+            <!-- Notificações Enviadas -->
+            <div class="bg-white rounded-lg shadow p-6 border-l-4 border-gray-500">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <p class="text-sm font-medium text-gray-500 uppercase">Notificações Enviadas</p>
+                        <h2 class="text-3xl font-bold text-gray-800 mt-2" id="kpi-notificacoes">0</h2>
+                    </div>
+                    <div class="p-3 bg-gray-100 rounded-full text-gray-600">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                </div>
+                <p class="text-xs text-gray-400 mt-2" id="kpi-notificacoes-detail">Diretorias envolvidas</p>
+            </div>
+
             <!-- Multas -->
             <div class="bg-white rounded-lg shadow p-6 border-l-4 border-orange-500">
                 <div class="flex justify-between items-start">
                     <div>
-                        <p class="text-sm font-medium text-gray-500 uppercase">Multas/Notificações</p>
+                        <p class="text-sm font-medium text-gray-500 uppercase">Multas Processadas</p>
                         <h2 class="text-3xl font-bold text-gray-800 mt-2" id="kpi-multas">0</h2>
                     </div>
                     <div class="p-3 bg-orange-100 rounded-full text-orange-600">
                         <i class="fa-solid fa-triangle-exclamation"></i>
                     </div>
                 </div>
-                <p class="text-xs text-gray-400 mt-2" id="kpi-multas-detail">Diretorias envolvidas</p>
+                <p class="text-xs text-gray-400 mt-2" id="kpi-multas-detail">Deferidos + Indeferidos</p>
             </div>
 
              <!-- Veículos Licenciados -->
@@ -413,36 +426,46 @@
         </div>
 
         <!-- Charts Row 1 -->
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
             <!-- Main Volume Chart -->
-            <div class="bg-white rounded-lg shadow p-6 lg:col-span-2">
-                <h3 class="text-lg font-bold text-gray-800 mb-4">Serviços de Tráfego por Setor - Novembro 2025</h3>
+            <div class="bg-white rounded-lg shadow p-6">
+                <h3 class="text-lg font-bold text-gray-800 mb-4">Atendimentos de Saídas por Setor - Novembro 2025</h3>
                 <div class="h-64">
                     <canvas id="volumeChart"></canvas>
                 </div>
             </div>
 
-            <!-- Tipo de Processo -->
+            <!-- Dias em Pernoite -->
             <div class="bg-white rounded-lg shadow p-6">
-                <h3 class="text-lg font-bold text-gray-800 mb-4">Distribuição de Processos</h3>
-                <div class="h-64 flex justify-center">
-                    <canvas id="tipoProcessoChart"></canvas>
+                <h3 class="text-lg font-bold text-gray-800 mb-4">Dias em Pernoite por Setor</h3>
+                <div class="h-64">
+                    <canvas id="pernoiteChart"></canvas>
                 </div>
             </div>
         </div>
 
         <!-- Charts Row 2 -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+            <!-- Tipo de Processo -->
+            <div class="bg-white rounded-lg shadow p-6">
+                <h3 class="text-lg font-bold text-gray-800 mb-4">Distribuição de Atendimentos</h3>
+                <div class="h-64 flex justify-center">
+                    <canvas id="tipoProcessoChart"></canvas>
+                </div>
+            </div>
+
              <!-- Multas por Diretoria -->
              <div class="bg-white rounded-lg shadow p-6">
                 <h3 class="text-lg font-bold text-gray-800 mb-4">Quantidades de Multas</h3>
                 <div class="h-64 flex justify-center">
                     <canvas id="frotaChart"></canvas>
                 </div>
+                <p class="text-xs text-gray-500 mt-3 pt-3 border-t border-gray-200">* Essas multas já foram processadas e/ou pagas pela Prefeitura</p>
+                <p class="text-xs text-gray-500 mt-3 pt-3 border-t border-gray-200"># No caso dos recursos, foram identificadas as pendências e enviadas aos municípios para regularização, tornando assim possível a emissão do CRLV.</p>
             </div>
 
             <!-- Dados Novembro -->
-            <div class="bg-white rounded-lg shadow p-6 lg:col-span-2">
+            <div class="bg-white rounded-lg shadow p-6">
                 <h3 class="text-lg font-bold text-gray-800 mb-4">Indicadores dos Princ. Atendimentos de Nov/2025</h3>
                 <div class="h-64">
                     <canvas id="opsChart"></canvas>
@@ -452,17 +475,17 @@
 
         <!-- Detailed Table -->
         <div class="bg-white rounded-lg shadow overflow-hidden">
-            <div class="px-6 py-4 border-b border-gray-200">
-                <h3 class="text-lg font-bold text-gray-800">Detalhamento dos Dados</h3>
+            <div class="px-4 py-2 border-b border-gray-200">
+                <h3 class="text-base font-bold text-gray-800">Detalhamento dos Dados</h3>
             </div>
             <div class="overflow-x-auto table-container">
-                <table class="min-w-full divide-y divide-gray-200">
+                <table class="min-w-full divide-y divide-gray-200 text-sm">
                     <thead class="bg-gray-50">
                         <tr>
-                            <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Atividades</th>
-                            <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Processos (Novembro)</th>
-                            <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Equipe Responsável</th>
-                            <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Observações</th>
+                            <th scope="col" class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Atividades</th>
+                            <th scope="col" class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Atendimentos (Nov./25)</th>
+                            <th scope="col" class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Equipe</th>
+                            <th scope="col" class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Observações</th>
                         </tr>
                     </thead>
                     <tbody class="bg-white divide-y divide-gray-200" id="dataTableBody">
@@ -505,6 +528,15 @@
                     "AIMPRES": 3,
                     "SUCOR": 1
                 },
+                "pernoite_por_setor": {
+                    "SUPED": 10,
+                    "DIPES": 4,
+                    "GABINETE": 3,
+                    "COGESPA": 2,
+                    "SUART": 3,
+                    "DIISE": 1,
+                    "DICLIPE": 1
+                },
                 "top_setores": {
                     "SUPED": 68,
                     "EFAPE": 41,
@@ -541,8 +573,13 @@
                     "SANTO ANASTACIO": 4
                 },
                 "recursos_deferidos": 13,
-                "recursos_indeferidos": 33,
+                "recursos_indeferidos": 34,
                 "pagamentos": 40
+            },
+            "notificacoes": {
+                "total": 62,
+                "diretorias_envolvidas": 25,
+                "prefeituras_envolvidas": 36
             },
             "licenciamento": {
                 "prefeituras": {
@@ -562,7 +599,8 @@
             "kpis": {
                 "total_processos": 803,
                 "servicos_trafego": 301,
-                "multas_notificacoes": 87,
+                "notificacoes_enviadas": 62,
+                "multas": 87,
                 "veiculos_licenciados": 415
             },
             "dados_novembro": {
@@ -574,7 +612,7 @@
         };
 
         // Variáveis globais para os gráficos
-        let volumeChartInst, tipoProcessoChartInst, frotaChartInst, opsChartInst;
+        let volumeChartInst, tipoProcessoChartInst, pernoiteChartInst, frotaChartInst, opsChartInst;
 
         // --- 2. Função de Inicialização ---
         window.onload = function() {
@@ -606,8 +644,10 @@
             document.getElementById('kpi-total').innerText = data.kpis.total_processos.toLocaleString('pt-BR');
             document.getElementById('kpi-trafego').innerText = data.kpis.servicos_trafego;
             document.getElementById('kpi-trafego-detail').innerText = `${data.trafego_terceirizado.total_pedidos} terceirizada | ${data.trafego_interno.total_atendimentos} interna`;
+            document.getElementById('kpi-notificacoes').innerText = data.notificacoes.total;
+            document.getElementById('kpi-notificacoes-detail').innerText = `${data.notificacoes.diretorias_envolvidas} diretorias | ${data.notificacoes.prefeituras_envolvidas} prefeituras`;
             document.getElementById('kpi-multas').innerText = data.multas.total;
-            document.getElementById('kpi-multas-detail').innerText = `${data.multas.diretorias_envolvidas} diretorias | ${data.multas.veiculos_multados} veículos`;
+            document.getElementById('kpi-multas-detail').innerText = `${data.multas.pagamentos} pagas |  ${data.multas.recursos_indeferidos} Aguard. Pagto |${data.multas.recursos_deferidos} deferidos`;
             document.getElementById('kpi-licenciados').innerText = data.licenciamento.total_veiculos;
             document.getElementById('kpi-licenciados-detail').innerText = `${data.licenciamento.prefeituras.veiculos} prefeituras | ${data.licenciamento.apaes.veiculos} APAEs`;
         }
@@ -677,17 +717,19 @@
             tipoProcessoChartInst = new Chart(ctxTipo, {
                 type: 'doughnut',
                 data: {
-                    labels: ['Veíc. Licenciados', 'Serviços de Tráfego', 'Multas/Notificações'],
+                    labels: ['Veíc. Licenciados', 'Atendimentos de Saídas', 'Multas Enviadas', 'Notificações Enviadas'],
                     datasets: [{
                         data: [
                             data.licenciamento.total_veiculos,
                             data.kpis.servicos_trafego,
-                            data.multas.total
+                            data.multas.total,
+                            data.notificacoes.total
                         ],
                         backgroundColor: [
                             '#10b981',
                             '#3b82f6',
-                            '#f59e0b'
+                            '#f59e0b',
+                            '#6b7280'
                         ]
                     }]
                 },
@@ -707,6 +749,50 @@
                 }
             });
 
+            // 2.5 Chart: Dias em Pernoite por Setor
+            const ctxPernoite = document.getElementById('pernoiteChart').getContext('2d');
+            if(pernoiteChartInst) pernoiteChartInst.destroy();
+            
+            const pernoiteData = Object.entries(data.trafego_terceirizado.pernoite_por_setor)
+                .sort((a, b) => b[1] - a[1]); // Ordenar decrescente
+            
+            pernoiteChartInst = new Chart(ctxPernoite, {
+                type: 'bar',
+                data: {
+                    labels: pernoiteData.map(([setor, _]) => setor),
+                    datasets: [{
+                        label: 'Dias em Pernoite',
+                        data: pernoiteData.map(([_, dias]) => dias),
+                        backgroundColor: 'rgba(59, 130, 246, 0.8)',
+                        borderColor: 'rgb(59, 130, 246)',
+                        borderWidth: 1,
+                        datalabels: {
+                            align: 'end',
+                            anchor: 'end',
+                            color: '#333',
+                            offset: 4
+                        }
+                    }]
+                },
+                options: {
+                    ...commonOptions,
+                    indexAxis: 'x',
+                    plugins: { 
+                        legend: { display: false }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            grid: { color: 'rgba(0, 0, 0, 0.05)' },
+                            max: Math.max(...pernoiteData.map(([_, dias]) => dias)) * 1.15
+                        },
+                        x: {
+                            grid: { display: false }
+                        }
+                    }
+                }
+            });
+
             // 3. Chart: Distribuição de Multas por Quantidade
             const ctxFrota = document.getElementById('frotaChart').getContext('2d');
             if(frotaChartInst) frotaChartInst.destroy();
@@ -714,8 +800,9 @@
             // Ordenar em ordem decrescente
             const multasData = [
                 { label: 'Total de Multas', value: data.multas.total, color: 'rgba(239, 68, 68, 0.8)', borderColor: 'rgb(239, 68, 68)' },
-                { label: 'Pagamentos', value: data.multas.pagamentos, color: 'rgba(59, 130, 246, 0.8)', borderColor: 'rgb(59, 130, 246)' },
-                { label: 'Recursos Indeferidos', value: data.multas.recursos_indeferidos, color: 'rgba(245, 158, 11, 0.8)', borderColor: 'rgb(245, 158, 11)' },
+                { label: 'Notificações enviadas', value: data.notificacoes.total, color: 'rgba(107, 114, 128, 0.8)', borderColor: 'rgb(107, 114, 128)' },
+                { label: '* Pagos pela Prefeitura', value: data.multas.pagamentos, color: 'rgba(59, 130, 246, 0.8)', borderColor: 'rgb(59, 130, 246)' },
+                { label: '# Aguardando Pagamento', value: data.multas.recursos_indeferidos, color: 'rgba(245, 158, 11, 0.8)', borderColor: 'rgb(245, 158, 11)' },
                 { label: 'Recursos Deferidos', value: data.multas.recursos_deferidos, color: 'rgba(16, 185, 129, 0.8)', borderColor: 'rgb(16, 185, 129)' }
             ].sort((a, b) => b.value - a.value);
 
@@ -741,7 +828,17 @@
                 options: {
                     ...commonOptions,
                     plugins: { 
-                        legend: { display: false }
+                        legend: { display: false },
+                        tooltip: {
+                            callbacks: {
+                                afterLabel: function(context) {
+                                    if(context.label.includes('*')) {
+                                        return '(Valores já processados)';
+                                    }
+                                    return '';
+                                }
+                            }
+                        }
                     },
                     scales: {
                         y: {
@@ -763,8 +860,9 @@
             // Ordenar em ordem decrescente
             const indicadoresData = [
                 { label: 'Veículos Licenciados', value: data.dados_novembro.licenciamento, color: 'rgba(16, 185, 129, 0.8)', borderColor: 'rgb(16, 185, 129)' },
-                { label: 'Serviços de Tráfego', value: data.dados_novembro.trafego, color: 'rgba(59, 130, 246, 0.8)', borderColor: 'rgb(59, 130, 246)' },
-                { label: 'Multas/Notificações', value: data.dados_novembro.multas, color: 'rgba(245, 158, 11, 0.8)', borderColor: 'rgb(245, 158, 11)' }
+                { label: 'Atendimentos de Saídas', value: data.dados_novembro.trafego, color: 'rgba(59, 130, 246, 0.8)', borderColor: 'rgb(59, 130, 246)' },
+                { label: 'Notificações Enviadas', value: data.notificacoes.total, color: 'rgba(107, 114, 128, 0.8)', borderColor: 'rgb(107, 114, 128)' },
+                { label: 'Multas', value: data.dados_novembro.multas, color: 'rgba(245, 158, 11, 0.8)', borderColor: 'rgb(245, 158, 11)' }
             ].sort((a, b) => b.value - a.value);
 
             opsChartInst = new Chart(ctxOps, {
@@ -827,10 +925,16 @@
                     obs: `${data.trafego_interno.departamentos_atendidos} departamentos | Tipos: MICROÔNIBUS (6), VAN (4), VAN SEM BANCO (4)` 
                 },
                 { 
-                    area: "Multas e Notificações", 
+                    area: "Multas", 
                     processos: data.multas.total, 
                     equipe: "4 Servidores", 
-                    obs: `${data.multas.diretorias_envolvidas} diretorias | ${data.multas.veiculos_multados} veículos | Def: ${data.multas.recursos_deferidos}, Indef: ${data.multas.recursos_indeferidos}, Pagos: ${data.multas.pagamentos}` 
+                    obs: `${data.multas.diretorias_envolvidas} diretorias | ${data.multas.veiculos_multados} veículos |  Pagos: ${data.multas.pagamentos} | Aguad. Pagto: ${data.multas.recursos_indeferidos} | Def: ${data.multas.recursos_deferidos} ` 
+                },
+                { 
+                    area: "Notificações", 
+                    processos: data.notificacoes.total, 
+                    equipe: "4 Servidores", 
+                    obs: `${data.notificacoes.diretorias_envolvidas} diretorias | ${data.notificacoes.prefeituras_envolvidas} prefeituras` 
                 },
                 { 
                     area: "Licenciamento - Prefeituras", 
@@ -849,10 +953,10 @@
             items.forEach(item => {
                 const tr = document.createElement('tr');
                 tr.innerHTML = `
-                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">${item.area}</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">${item.processos.toLocaleString('pt-BR')}</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">${item.equipe}</td>
-                    <td class="px-6 py-4 text-sm text-gray-500">${item.obs}</td>
+                    <td class="px-4 py-2 whitespace-nowrap text-xs text-gray-900 font-medium">${item.area}</td>
+                    <td class="px-4 py-2 whitespace-nowrap text-xs text-gray-600">${item.processos.toLocaleString('pt-BR')}</td>
+                    <td class="px-4 py-2 whitespace-nowrap text-xs text-gray-600">${item.equipe}</td>
+                    <td class="px-4 py-2 text-xs text-gray-600">${item.obs}</td>
                 `;
                 tbody.appendChild(tr);
             });
